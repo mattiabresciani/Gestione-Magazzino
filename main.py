@@ -1,3 +1,4 @@
+import funzione1
 import menu
 
 #file main
