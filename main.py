@@ -1,8 +1,11 @@
+import menu
+
 #file main
 reload = True #reload sarà la variabile che permetterà di usare il programma all'infinito. 
 
 while reload == True:
   try: #prova a chiedergli in input la scelta del menu
+    print(menu.stampamenu()) #visualizza il menu
     scelta = int(input("Inserisci l'opzione \n >>    "))
     reload = False
   except ValueError: #se l'utente inserisce un numero float
