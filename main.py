@@ -1,19 +1,22 @@
 #file main
-reload = True
+reload = True #reload sarà la variabile che permetterà di usare il programma all'infinito. 
 
 while reload == True:
-  try:
+  try: #prova a chiedergli in input la scelta del menu
     scelta = int(input("Inserisci l'opzione \n >>    "))
     reload = False
-  except ValueError:
+  except ValueError: #se l'utente inserisce un numero float
     print("Errore nell'inserimento del comando. Ricontrolla.")
     reload = True
-  except TypeError:
+  except TypeError: #se l'utente inserisce una stringa
     print("Errore nell'inserimento del comando. Ricontrolla.")
     reload = True
 
+
+#Inizio parte della selezione e dei controlli. (gestione input)
 if scelta == 0:
   print("Fine esecuzione programmi")
+  reload = False #siccome non ci sarà nulla da fare il programma si chiude
 elif scelta == 1:
   #vai alla funzione1
 elif scelta == 2:
