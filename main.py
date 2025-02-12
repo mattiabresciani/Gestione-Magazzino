@@ -2,8 +2,15 @@
 Reload = True
 
 while reload == True:
-  scelta = int(input("Inserisci l'opzione \n >>    "))
-  reload = False
+  try:
+    scelta = int(input("Inserisci l'opzione \n >>    "))
+    reload = False
+  except ValueError:
+    print("Errore nell'inserimento del comando. Ricontrolla.")
+    reload = True
+  except TypeError:
+    print("Errore nell'inserimento del comando. Ricontrolla.")
+    reload = True
 
 if scelta == 0:
   print("Fine esecuzione programmi")
