@@ -1,5 +1,5 @@
 #file main
-Reload = True
+reload = True
 
 while reload == True:
   try:
