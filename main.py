@@ -31,6 +31,9 @@ elif scelta == 4:
   #vai alla funzione4
 elif scelta == 5:
   #vai alla funzione5
+elif scelta == 6:
+  print("Al progetto hanno lavorato: \n- Mattia Bresciani\n- Alessio Bendandi\n- Matteo Saladino")
+  reload = False
 else:
   print("Comando non riconosciuto")
   reload = True
