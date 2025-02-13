@@ -35,8 +35,5 @@ def visualizzacategoria():
 
         row = f.readline()
 
-    reloadmenu = True
-
-    return reloadmenu
 
 #Mattia Bresciani
