@@ -6,7 +6,7 @@ dati3 = []
 dati4 = []
 dati5 = []
 
-def function5():
+def savetxt():
 
 
     f = open("abbigliamento.csv", "r")
