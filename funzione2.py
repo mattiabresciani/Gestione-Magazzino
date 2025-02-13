@@ -1,3 +1,6 @@
+#ALESSIO BENDANDI
+
+
 articoli = [] 
 quantita = []  
 articoli1 = [] 
