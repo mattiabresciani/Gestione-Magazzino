@@ -5,6 +5,5 @@ def stampamenu():
   print("[3] Visualizza articoli di una categoria.")
   print("[4] Aggiungi o rimuovi una categoria.")
   print("[5] Salva su un file txt.\n")
-  print("[6] Visualizza crediti.")
   print("[0] Esci dal programma.")
   
