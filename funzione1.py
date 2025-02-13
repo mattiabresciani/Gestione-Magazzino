@@ -1,4 +1,4 @@
-def funzione1():
+def addarticolo():
   lista=[]
   categoria=input("Di quale categoria fa parte il tuo articolo: ")
   f=open(categoria+".csv","r")
@@ -17,3 +17,5 @@ def funzione1():
   for elemento in lista:
     f.write(",".join(elemento)+ "\n")
   f.close()
+
+#Matteo Saladino
