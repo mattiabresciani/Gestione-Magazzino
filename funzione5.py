@@ -7,12 +7,7 @@ dati4 = []
 dati5 = []
 
 def function5():
-    dati.clear()
-    dati1.clear()
-    dati2.clear()
-    dati3.clear()
-    dati4.clear()
-    dati5.clear()
+
 
     f = open("abbigliamento.csv", "r")
     riga = f.readline()
