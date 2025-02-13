@@ -1,4 +1,5 @@
 import funzione1
+import funzione3
 import menu
 
 #file main
@@ -26,7 +27,8 @@ elif scelta == 1:
 elif scelta == 2:
   #vai alla funzione2
 elif scelta == 3:
-  #vai alla funzione3
+  funzione3.visualizzacategoria()
+  reload = funzione3.visualizzacategoria()
 elif scelta == 4:
   #vai alla funzione4
 elif scelta == 5:
