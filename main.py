@@ -26,15 +26,19 @@ if scelta == 0:
   print("Fine esecuzione programmi")
   reload = False #siccome non ci sarà nulla da fare il programma si chiude
 elif scelta == 1:
+  funzione1.addarticolo()
   reload = True
 elif scelta == 2:
+  funzione2.acquisto()
   reload = True
 elif scelta == 3:
   funzione3.visualizzacategoria()
   reload = True
 elif scelta == 4:
+  funzione4.adddellcateg()
   reload = True
 elif scelta == 5:
+  funzione5.savetxt()
   reload = True
 
 else:
