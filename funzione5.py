@@ -52,5 +52,4 @@ def function5():
         x.write("CASALINGHI:")
         x.write(dati4[i] + " " + dati5[i] + "\n")
 
-function5()
 
