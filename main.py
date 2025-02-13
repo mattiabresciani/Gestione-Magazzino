@@ -28,7 +28,7 @@ elif scelta == 2:
   #vai alla funzione2
 elif scelta == 3:
   funzione3.visualizzacategoria()
-  reload = funzione3.visualizzacategoria()
+  reload = True
 elif scelta == 4:
   #vai alla funzione4
 elif scelta == 5:
