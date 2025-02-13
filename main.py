@@ -1,5 +1,8 @@
 import funzione1
+import funzione2
 import funzione3
+import funzione4
+import funzione5
 import menu
 
 #file main
@@ -23,19 +26,17 @@ if scelta == 0:
   print("Fine esecuzione programmi")
   reload = False #siccome non ci sarà nulla da fare il programma si chiude
 elif scelta == 1:
-  #vai alla funzione1
+  reload = True
 elif scelta == 2:
-  #vai alla funzione2
+  reload = True
 elif scelta == 3:
   funzione3.visualizzacategoria()
   reload = True
 elif scelta == 4:
-  #vai alla funzione4
-elif scelta == 5:
-  #vai alla funzione5
-elif scelta == 6:
-  print("Al progetto hanno lavorato: \n- Mattia Bresciani\n- Alessio Bendandi\n- Matteo Saladino")
   reload = True
+elif scelta == 5:
+  reload = True
+
 else:
   print("Comando non riconosciuto")
   reload = True
