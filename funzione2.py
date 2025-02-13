@@ -111,5 +111,3 @@ def acquisto():
 
         print("Articoli aggiornati:", articoli2)  
         print("Quantità:", quantita2)        
-acquisto()  
-
