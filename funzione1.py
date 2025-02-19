@@ -8,9 +8,6 @@ def addarticolo():
     except FileNotFoundError:
         print(f"Il file {categoria}.csv non esiste.")
         return
-
-    articolo = input("Quale articolo vuoi modificare? ")
-    quantità = int(input("Qual è la nuova quantità? "))
     
     # Lettura dei dati esistenti
     riga = f.readline()
@@ -19,6 +16,13 @@ def addarticolo():
         lista.append(dati)
         riga = f.readline()
     f.close()
+
+    articolo = input("Quale articolo vuoi modificare? ")
+    while articolo not in lista:
+        articolo = input("Errore! L'articolo che cerci di modificare non è presente nel magazzino, riprova ")
+    quantità = int(input("Qual è la nuova quantità? "))
+    while quantità < 0:
+        quantità=int(input("Errore! Inserisci una quantità possibile ")
 
     # Modifica la quantità dell'articolo
     for i in range(len(lista)):
